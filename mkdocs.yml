@@ -1,5 +1,6 @@
 site_name: Simplificando {{Tech}}
-site_url: https://simplificando.tech
+# site_url: https://simplificando.tech
+site_url: https://d3kyjpr3a03iu0.cloudfront.net
 theme:
   name: material
   font:
@@ -46,7 +47,7 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-  
+
 plugins:
   # - mkdocs-video
   
