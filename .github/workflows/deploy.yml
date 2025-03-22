@@ -41,7 +41,7 @@ jobs:
         run: |
           aws sts get-caller-identity
       - name: sync blog
-        run: aws s3 sync ./ s3://simplificando.tech
+        run: aws s3 sync ./site s3://simplificando.tech
 
 
 
