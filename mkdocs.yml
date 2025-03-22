@@ -46,6 +46,7 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  
 plugins:
   # - mkdocs-video
   
@@ -59,4 +60,4 @@ extra:
     - icon: simple/youtube
       link: https://youtube.com/@simplificando-tech
     
-copyright: Copyright &copy; 2025 João Antônio Marcolan
+copyright: Copyright &copy; 2025 simplificando.tech
