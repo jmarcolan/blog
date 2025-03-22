@@ -3,6 +3,7 @@ site_url: https://simplificando.tech
 # site_url: https://d3kyjpr3a03iu0.cloudfront.net
 # https://www.mkdocs.org/user-guide/configuration/#use_directory_urls
 # https://learn.openwaterfoundation.org/owf-learn-aws/cdn/cloudfront/lambda-to-append-index/
+# https://andrewlock.net/using-lambda-at-edge-to-handle-angular-client-side-routing-with-s3-and-cloudfront/
 use_directory_urls: false
 theme:
   name: material
