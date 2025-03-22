@@ -17,7 +17,7 @@ Data augmentation techniques encompass a wide array of transformations aimed at 
 
 - **Rotation**: Rotating an image by a specified degree can accommodate variations in how images are captured, making the model resilient to different orientations it may encounter during inference.
 
-- **Zooming**: Randomly zooming in or out on images can create a more robust model capable of handling scale variations. This can be crucial for datasets where objects may appear at varying scales or distances from the camera.
+- **Zooming**: Randomly zooming in or out on images can create a more robust model capable of handling scale variations. This is crucial for datasets where objects may appear at varying scales or distances from the camera.
 
 - **Color Adjustment**: Altering brightness, contrast, and saturation can help the model become invariant to different lighting conditions, thus improving robustness. Such augmentation techniques simulate different environments in which images might be captured (Schmidhuber, 2015).
 
@@ -71,6 +71,7 @@ In this code snippet, we load an image and define a series of transformations: h
 | Horizontal Flip      | Flips the image along the vertical axis.           | Ensures model learns invariance to horizontal orientation. |
 | Rotation             | Rotates images by specified degrees.                | Models become invariant to object orientation. |
 | Color Jitter         | Randomly changes brightness, contrast, and saturation. | Models better generalize across various lighting conditions. |
+| Random Resized Crop  | Crops and resizes the image to specified dimensions. | Allows the model to learn from different scales and compositions of objects. |
 
 ## Proposed Images
 
