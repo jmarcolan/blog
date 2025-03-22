@@ -22,6 +22,14 @@ jobs:
     steps:
       - name: Git clone the repository
         uses: actions/checkout@v3
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "requirements.txt"
+
+      - name: build mkdocs site
+        run: mkdocs build
+      
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1.7.0
         with:
