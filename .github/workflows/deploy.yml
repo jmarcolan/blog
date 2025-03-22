@@ -10,7 +10,7 @@ on:
 
 env:
   
-  AWS_REGION : "sa-east-1" #Change to reflect your Region
+  AWS_REGION : "eu-north-1" #Change to reflect your Region
 
 # Permission can be added at job level or workflow level    
 permissions:
@@ -32,3 +32,5 @@ jobs:
       - name: Sts GetCallerIdentity
         run: |
           aws sts get-caller-identity
+      - name: sync blog
+        run: aws s3 sync ./ s3://simplificando.tech --exclude="*"
