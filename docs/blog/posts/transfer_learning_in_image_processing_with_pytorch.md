@@ -1,15 +1,8 @@
 ---
 title: "Transfer Learning in Image Processing with PyTorch"
-description: "This blog post delves into transfer learning in image processing, computer vision, and machine learning, specifically utilizing PyTorch."
-tags:
-  - image_processing
-  - computer_vision
-  - machine_learning
-  - transfer_learning
-  - pytorch
-questions:
-  - "What is transfer learning, with examples?"
-image: "https://example.com/image.jpg"  # Replace with actual image URL
+date: 2023-10-20
+tags: [image_processing, computer_vision, machine_learning, transfer_learning, pytorch]
+summary: "This blog post delves into transfer learning in image processing, computer vision, and machine learning, specifically utilizing PyTorch."
 ---
 
 ## Introduction

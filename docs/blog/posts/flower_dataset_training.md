@@ -1,11 +1,8 @@
 ---
-title: How to Train a Convolutional Neural Network on the Flower Dataset using PyTorch
+title: "How to Train a Convolutional Neural Network on the Flower Dataset using PyTorch"
 date: 2023-10-01
 tags: [CNN, PyTorch, Flower Dataset, Image Classification]
-summary: A comprehensive guide on how to train a CNN using the Oxford 102 Flower dataset in PyTorch.
-subject: Machine Learning
-question: How do I train a CNN with the Flower dataset?
-library: PyTorch
+summary: "A comprehensive guide on how to train a CNN using the Oxford 102 Flower dataset in PyTorch."
 ---
 
 # How to Train a Convolutional Neural Network on the Flower Dataset using PyTorch
