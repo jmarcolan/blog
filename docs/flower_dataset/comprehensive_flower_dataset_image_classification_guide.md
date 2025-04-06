@@ -1,6 +1,6 @@
 ---
 title: Comprehensive Flower Dataset Image Classification Guide
-date: 2023-10-21
+date: 2023-10-25
 tags: [Image Processing, Computer Vision, PyTorch, Flower Dataset, Machine Learning]
 summary: A comprehensive exploration of the Oxford 102 Flower dataset, covering loading techniques, image classification with PyTorch, and model training practices.
 ---
@@ -8,7 +8,7 @@ summary: A comprehensive exploration of the Oxford 102 Flower dataset, covering 
 # Comprehensive Flower Dataset Image Classification Guide
 
 ## Introduction
-The Oxford 102 Flower dataset is a cornerstone in image classification, comprising 8189 images across 102 different classes. It serves as a vital resource for those interested in advancing their expertise in computer vision and deep learning.
+The Oxford 102 Flower dataset is a cornerstone in image classification, comprising 8,189 images across 102 different classes. It serves as a vital resource for those interested in advancing their expertise in computer vision and deep learning.
 
 To effectively utilize this dataset, it is essential for practitioners to understand how to load and preprocess the images, optimally structure their data loaders, and build convolutional neural networks for classification tasks using PyTorch.
 
@@ -45,7 +45,7 @@ plt.show()
 ```
 
 ### Creating Custom Datasets
-In instances where specific preprocessing needs arise, it is beneficial to create a custom dataset class. Below is a code snippet to demonstrate defining and utilizing a custom dataset
+In instances where specific preprocessing needs arise, it is beneficial to create a custom dataset class. Below is a code snippet to demonstrate defining and utilizing a custom dataset:
 
 ```python
 class CustomFlowerDataset:
@@ -71,7 +71,6 @@ The Oxford 102 Flower dataset not only serves as an exemplary resource for train
 
 ## Internal Links
 To further enhance your understanding and practical skills, check the related guides:
-- [A Comprehensive Guide to the Flower Dataset and Image Classification using PyTorch](a_comprehensive_guide_to_flower_dataset_and_image_classification_using_pytorch.md)  
 - [Loading Image Datasets with PyTorch](loading_image_datasets_with_pytorch_guide.md)
 
 ## References

@@ -1,7 +1,8 @@
 ---
-subject: PyTorch
-question: How to load image datasets with PyTorch?
-library: torchvision
+title: Loading Image Datasets with PyTorch
+date: 2023-10-25
+tags: [Image Processing, PyTorch, Dataset Handling, Machine Learning]
+summary: A comprehensive guide to loading image datasets in PyTorch, describing standard dataset loading and creating custom datasets.
 ---
 
 # Loading Image Datasets with PyTorch: A Comprehensive Guide
@@ -44,7 +45,7 @@ import numpy as np
 import torchvision.utils as vutils
 
 # Function to show images
-def imshow(img):
+ def imshow(img):
     img = img / 2 + 0.5  # Unnormalize
     npimg = img.numpy()
     plt.imshow(np.transpose(npimg, (1, 2, 0)))
@@ -119,4 +120,6 @@ Loading image datasets efficiently is crucial for developing robust machine lear
 - Paszke, A., et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems (Vol. 32).
 - PyTorch Team. (n.d.). Writing Custom Datasets, DataLoaders and Transforms - PyTorch. Retrieved from https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
 
-[View the full guide here](http://localhost:8055/loading_image_datasets_with_pytorch_guide.md)
+## Internal Links
+To further your knowledge on image classification, refer to:
+- [Comprehensive Flower Dataset Image Classification Guide](comprehensive_flower_dataset_image_classification_guide.md)
