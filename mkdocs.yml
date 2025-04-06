@@ -64,5 +64,9 @@ extra:
   social:
     - icon: simple/youtube
       link: https://youtube.com/@simplificando-tech
-    
+
+  analytics:
+    provider: google
+    property: G-QZ8SVB7XE3
+
 copyright: Copyright &copy; 2025 simplificando.tech
