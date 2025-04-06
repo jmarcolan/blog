@@ -14,6 +14,7 @@ theme:
   favicon: assets/favicon.ico
   features:
     - navigation.footer
+    - navigation.indexes
   palette:
     # Dark Mode
     - scheme: slate
@@ -58,8 +59,9 @@ plugins:
   - exclude:
       glob:
         - "*notes*"
-    
-  
+
+
+
 extra:
   social:
     - icon: simple/youtube
