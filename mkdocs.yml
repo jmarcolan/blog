@@ -55,15 +55,14 @@ markdown_extensions:
 
 plugins:
   # - mkdocs-video
-  
   - exclude:
       glob:
         - "*notes*"
 
 # nav:
 #   - Blog:
-#     - blog/
-
+#     - Introduction to PyTorch Object Detection: docs/libs/AI/pytorch/pytorch_object_detection.md
+    
 extra:
   social:
     - icon: simple/youtube
